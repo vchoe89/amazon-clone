@@ -1,0 +1,28 @@
+.footer {
+  background-color: #232e3e;
+  width: 100%;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.footer__column {
+  margin-top: 1rem;
+}
+
+.top__line {
+  font-size: large;
+  font-weight: 800;
+  padding-bottom: 5px;
+}
+
+.column__line {
+  /* margin: 2px; */
+  margin-bottom: 10px;
+  padding: 2px;
+  font-size: 12px;
+}
