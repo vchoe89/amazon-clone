@@ -1,0 +1,19 @@
+.headerlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 2px;
+  color: white;
+  gap: 1px;
+  background-color: #242f3e;
+  font-size: 14px;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.headerlinks__link {
+  text-decoration: none;
+  color: inherit;
+}

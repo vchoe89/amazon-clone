@@ -1,0 +1,29 @@
+.searchedProduct {
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+}
+
+.searched__img {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.searched__row {
+  display: grid;
+  grid-template-columns: repeat(3, 480px);
+  gap: 50px;
+  z-index: 1;
+}
+
+.loading__div {
+  display: flex;
+  justify-content: center;
+  top: 1;
+}
